@@ -1,0 +1,198 @@
+
+@media (max-width:1100px){
+.l-main{
+padding: 0%;
+}
+.l-aside{ margin-left: -250px;}
+.s-aside__menu-toggler{ 
+display: flex;
+
+left: 2px;}
+#s-aside__menu-toggler:checked ~ .l-aside{
+margin-left: 0px;
+
+width: 100%;
+opacity: .9;
+
+}
+
+.c-apresentation{
+z-index: 10;
+padding: 15px 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 95%;
+margin: auto;
+
+}
+.c-apresentation__myself{
+
+margin-bottom: 20px;
+}
+.c-apresentation__myself  img
+
+{   height: 240px;
+width: 240px}
+
+
+}
+
+
+
+
+
+@media (max-width:800px){
+
+
+
+.c-user-informations{
+flex-direction: column;
+
+}
+.c-user-informations__info {
+flex: 0 0 100%;
+max-width: 100%;
+font-size: 1.5rem;
+
+
+column-count: 2;
+
+}
+.c-aside__submenu-projects , .c-aside__submenu-arrow{
+display: none;
+}
+
+.c-apresentation__intro{
+min-width: 100%;
+}
+
+.c-user-informations__skills{  
+position: relative;
+flex: 0 0 90%;
+max-width: 90%;
+font-size: 1.4rem;
+margin-top: 30px;
+}
+}
+
+@media( max-width: 700px){
+html{ font-size: 50%;}
+.c-apresentation{
+width: 100%;
+
+}
+.c-apresentation__intro h2,h3{
+font-size: 3.5rem;
+white-space: nowrap;
+
+
+}
+.c-apresentation__intro{
+
+max-width: 100%;
+
+
+}
+
+
+.c-user-informations__info {
+flex: 0 0 100%;
+width: 100%;
+font-size: 1.6rem;
+
+
+column-count: 1;
+
+}
+
+.c-galery__store{
+grid-template-columns: repeat(2,1fr);
+}
+.c-contact-list{
+flex-direction: column;
+}
+
+.contact_item{
+
+max-width: 100%;
+width: 80%;
+padding: 20px;
+}
+
+}
+
+@media (max-width:500px){
+
+.c-apresentation__intro h2, .c-apresentation__intro h3{
+font-size: 3rem;
+
+}
+.c-apresentation__myself img{
+height: 180px;
+width: 180px;
+}
+}
+
+@media (max-width:432px){
+.c-apresentation__myself img{
+height: 160px;
+width: 160px;
+}
+.c-apresentation__intro h2, .c-apresentation__intro h3{
+display: block;
+white-space: nowrap;
+margin-left: -1px;
+width: 100%;
+font-size: 2.4rem ;
+}
+.c-apresentation__btn{ padding: 10px 18px;}
+.contact_item:not(:first-child){
+margin-top: 20px;
+
+}
+}
+
+@media (max-height:475px){
+.c-home{
+padding-top: 30px;
+
+}
+
+.c-menu__item{
+    font-size: 1.4rem;
+}
+.l-aside__icon-list i{
+
+opacity: 0;
+}
+
+.c-apresentation{
+position: static;
+z-index: 1;
+}
+.c-apresentation__intro {
+    margin-bottom: 30px;
+}
+.c-apresentation h2,.c-apresentation h3{
+font-size: 2.4rem;
+}
+
+.c-apresentation__btn{
+padding: 8px 16px;
+
+}
+.c-apresentation__myself img {
+
+height: 14rem;
+width: 14rem;
+}
+}
+
+@media (max-height:335px){
+    .c-apresentation__myself img {
+   
+        height: 11rem;
+        width: 11rem;
+        } 
+}
