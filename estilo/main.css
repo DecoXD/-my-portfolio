@@ -83,7 +83,7 @@ font-size: 2rem;
 
 
 }
-.l-aside__icon-list i:not(:last-child){
+.l-aside__icon-list-item:not(:last-child){
 margin-right: 15px;
 }
 
