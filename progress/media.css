@@ -114,9 +114,9 @@ flex-direction: column;
 }
 
 .contact_item{
+height: 80px;
+width: 200px;
 
-max-width: 100%;
-width: 80%;
 padding: 20px;
 }
 
