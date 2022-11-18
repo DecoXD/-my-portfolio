@@ -135,6 +135,13 @@ width: 180px;
 }
 
 @media (max-width:432px){
+.c-apresentation{
+justify-content: center;
+}
+
+.c-apresentation__intro {
+margin-top: 50px;
+}
 .c-apresentation__myself img{
 height: 160px;
 width: 160px;
